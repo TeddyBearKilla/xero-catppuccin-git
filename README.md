@@ -2,27 +2,25 @@
 
 ### Disclaimer
 
-> I would like to clarify one very important aspect of ricing. We use custom themes in every one of our rices, and those might not get updated very often, if at all by their respective developers/artists, which might result in some parts of the system and apps not to get themed correctly. That, my friends, is unfortunately out of our hands.
+I would like to clarify one very important aspect of ricing. We use custom themes in every one of our rices, and those might not get updated very often, if at all by their respective developers/artists, which might result in some parts of the system and apps not to get themed correctly. That, my friends, is unfortunately out of our hands.
 
 ![XeroCat](https://i.imgur.com/qJTPsZ5.png)
 
--> Performance :
+### Performance :
 
-> This rice as with most of our rices, has been throughly optimized for best performance on higher-end systems.. Although it might work on lower-end ones, for better performance I do not recommend that you use it there. So please do not report any performance issues.
+This rice as with most of our rices, has been throughly optimized for best performance on higher-end systems.. Although it might work on lower-end ones, for better performance I do not recommend that you use it there. So please do not report any performance issues.
 
 # Installation
 
-Just clone this repository, run terminal inside directory and run installer Script using below command.
-
-`git clone https://github.com/xerolinux/xero-catppuccin-git && cd xero-catppuccin-git && ./install.sh`
+First you will need to be on **XeroLinux** in order for this to work, can't be on any other distro. With that out of the way, all you need to do in order to apply this beautiful rice, is to launch our tool from the Dock if you haven't removed it already or from the applications menu by searching for "Xero". Just make sure you have the latest version, update if you don't. Once that's done, head on over to **Post-Install System Config** there you will see a button labled **XeroLinux Rices**, just click on it and select this rice from the list and watch it do its magic. You will need to reboot for every to be applied correctly. Enjoy ;)
 
 ### Support
 
 I didn't work on this rice alone, with the majority of the work, especially the wallpaper, Grub and overall consistency which were all done by my good friend and brother [@TeddyBearKilla](https://github.com/TeddyBearKilla), so please feel free to show him some love by buying him a [**Coffee**](https://ko-fi.com/teddybearkilla) or two...
 
-### Script
+### Your Settings
 
-Please follow the script instructions and answer some prompts correctly when asked, if any. Once script is done your are urged to save any work you are doing and reboot for rice to be loaded and applied. Keep in mind that it will backup some app settings & all system ones before applying and overriding them with new ones, you will be able to restore what you need from the backup, so please do not report that. You have been warned. In case of any issues please find us on our [Discord Server](https://discord.gg/Xg6T78ahtK). Best of luck !
+Keep in mind that it will backup some app settings & all system ones before applying and overriding them with new ones, you will be able to restore what you need from the backup, so please do not report that. You have been warned. In case of any issues please find us on our [Discord Server](https://discord.gg/Xg6T78ahtK). Best of luck !
 
 ### Applying Theme/Rice Updates
 
@@ -34,11 +32,3 @@ When you initially apply the rice, you will be getting latest theme/rice code in
 - Download and install necessary packages if needed...
 - Override your settings and files with this rice's.
 - Install and apply New Grub Theme...
-
-# F.A.Q
-
-> Q: Will this rice work on other distros Like Fedora or Debian based ?<br />
-> A : If it's not **XeroLinux** then no. Sorry.
->
-> Q : I am running *Pre-Customized* **Arch** Distro with *KDE* can I use your rice ?<br />
-> A : Short answer, *might*. Long answer, too many variables, I don't guarantee success.
