@@ -10,9 +10,13 @@ I would like to clarify one very important aspect of ricing. We use custom theme
 
 This rice as with most of our rices, has been throughly optimized for best performance on higher-end systems.. Although it might work on lower-end ones, for better performance I do not recommend that you use it there. So please do not report any performance issues.
 
-# Installation
+### Installation
 
 First you will need to be on **XeroLinux** in order for this to work, can't be on any other distro. With that out of the way, all you need to do in order to apply this beautiful rice, is to launch our tool from the Dock if you haven't removed it already or from the applications menu by searching for "Xero". Just make sure you have the latest version, update if you don't. Once that's done, head on over to **Post-Install System Config** there you will see a button labeled **XeroLinux Rices**, just click on it and select this rice from the list and watch it do its magic. You will need to reboot for it to be applied correctly. Enjoy ;)
+
+### Side-Note :
+
+> If you apply this rice and something goes wrong, well, that's not a fault of our own, it's just KDE being what it is, to remedy the situation, you are kindly requested to re-apply the rice again, that should fix it. And if you apply one rice, then another on top of it, same thing might happen thus same solution applies. Sorry about that but sometimes KDE can be a pain.. I still love it though ;)
 
 ### Support
 
