@@ -81,7 +81,7 @@ sleep 1.5
 stylepak install-user Catppuccin-Mocha-Compact-Mauve-dark
 stylepak install-system Catppuccin-Mocha-Compact-Mauve-dark
 sleep 2
-cd .. && rm -rf xero-catppuccin-git/
+cd ~ && rm -rf xero-catppuccin-git/
 echo
 sleep 1.5
 rm -rf ~/.cache/
