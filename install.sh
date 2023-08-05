@@ -57,9 +57,9 @@ echo "###############################################"
 sleep 1.5
 cp -r ~/.config ~/.config-backup-$(date +%Y.%m.%d-%H.%M.%S) && cp -Rf Configs/Home/. ~
 sudo cp -Rf Configs/System/. / && sudo cp -Rf Configs/Home/. /root/
-ln -sf "$HOME/.themes/Catppuccin-Mocha-Compact-Mauve-dark/gtk-4.0/assets" "${HOME}/.config/gtk-4.0/assets"
-ln -sf "$HOME/.themes/Catppuccin-Mocha-Compact-Mauve-dark/gtk-4.0/gtk.css" "${HOME}/.config/gtk-4.0/gtk.css"
-ln -sf "$HOME/.themes/Catppuccin-Mocha-Compact-Mauve-dark/gtk-4.0/gtk-dark.css" "${HOME}/.config/gtk-4.0/gtk-dark.css"
+ln -sf "$HOME/.themes/Catppuccin-Mocha-Compact-Mauve-Dark/gtk-4.0/assets" "${HOME}/.config/gtk-4.0/assets"
+ln -sf "$HOME/.themes/Catppuccin-Mocha-Compact-Mauve-Dark/gtk-4.0/gtk.css" "${HOME}/.config/gtk-4.0/gtk.css"
+ln -sf "$HOME/.themes/Catppuccin-Mocha-Compact-Mauve-Dark/gtk-4.0/gtk-dark.css" "${HOME}/.config/gtk-4.0/gtk-dark.css"
 sleep 2
 echo
 # Update SDDM configuration
@@ -78,8 +78,8 @@ sleep 1.5
 echo "Converting Current Theme to Flatpak"
 echo "###################################"
 sleep 1.5
-stylepak install-user Catppuccin-Mocha-Compact-Mauve-dark
-stylepak install-system Catppuccin-Mocha-Compact-Mauve-dark
+stylepak install-user Catppuccin-Mocha-Compact-Mauve-Dark
+stylepak install-system Catppuccin-Mocha-Compact-Mauve-Dark
 sleep 2
 cd ~ && rm -rf xero-catppuccin-git/
 echo
