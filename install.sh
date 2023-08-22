@@ -74,18 +74,11 @@ sudo flatpak override --filesystem=$HOME/.themes
 sudo flatpak override --filesystem=xdg-config/gtk-3.0:ro
 sudo flatpak override --filesystem=xdg-config/gtk-4.0:ro
 echo
-sleep 1.5
-echo "Converting Current Theme to Flatpak"
-echo "###################################"
-sleep 1.5
-stylepak install-user Catppuccin-Mocha-Compact-Mauve-Dark
-stylepak install-system Catppuccin-Mocha-Compact-Mauve-Dark
 sleep 2
 cd ~ && rm -rf xero-catppuccin-git/
 echo
-sleep 1.5
 rm -rf ~/.cache/
-sleep 1.5
+sleep 3
 echo "#############################################"
 echo "  All Done! Reboot system To activate rice.  "
 echo "#############################################"
