@@ -40,7 +40,7 @@ echo "Applying Our Custom Grub Theme..."
 echo "#################################"
 chmod +x Grub.sh
 sudo ./Grub.sh
-sudo sed -i "s/#GRUB_GFXMODE=640x480/GRUB_GFXMODE=1920x1080/g" /etc/default/grub
+sudo sed -i "s/GRUB_GFXMODE=*.*/GRUB_GFXMODE=1920x1080x32/g" /etc/default/grub
 sudo grub-mkconfig -o /boot/grub/grub.cfg
 sleep 2
 echo
