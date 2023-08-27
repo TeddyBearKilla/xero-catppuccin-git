@@ -56,6 +56,7 @@ echo "Creating Backup & Applying new Rice, hold on..."
 echo "###############################################"
 sleep 1.5
 cp -r ~/.config ~/.config-backup-$(date +%Y.%m.%d-%H.%M.%S) && cp -Rf Configs/Home/. ~
+cp -r ~/.mozilla ~/.mozilla-backup-$(date +%Y.%m.%d-%H.%M.%S) && cp -Rf Configs/Home/. ~
 sudo cp -Rf Configs/System/. / && sudo cp -Rf Configs/Home/. /root/
 ln -sf "$HOME/.themes/Catppuccin-Mocha-Compact-Mauve-Dark/gtk-4.0/assets" "${HOME}/.config/gtk-4.0/assets"
 ln -sf "$HOME/.themes/Catppuccin-Mocha-Compact-Mauve-Dark/gtk-4.0/gtk.css" "${HOME}/.config/gtk-4.0/gtk.css"
